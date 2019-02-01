@@ -1,0 +1,20 @@
+{
+  "name": "belluzzo/mrouter",
+  "description": "A simple router in PHP",
+  "keywords": [
+    "router"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus Belluzzo",
+      "email": "MatheusBelluzzo@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
+    }
+  }
+}
